@@ -1,0 +1,50 @@
+{
+  "createdBy": "talha",
+  "updatedBy": "talha",
+  "_id": "63a06719ab54b76ad44e7912",
+  "id": "Aki2vpqIdUeE5KX7NWEhV",
+  "projectId": "63a0379aab54b76ad44e75db",
+  "gitBranchName": "git_testing",
+  "name": "get List",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "_id": "63a06762ab54b76ad44e7985",
+      "type": "8",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "63a06762ab54b76ad44e7986",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "listRes",
+          "responseReturnValue": "data",
+          "successMessageBindingKey": "abc",
+          "errorMessageBindingKey": "abc",
+          "url": "list",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "63a0664fab54b76ad44e782d",
+          "storeType": 2
+        },
+        "type": "5"
+      }
+    }
+  ],
+  "createdAt": "19-Dec-2022",
+  "updatedAt": "19-Dec-2022",
+  "__v": 1
+}

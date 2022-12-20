@@ -52,22 +52,55 @@
           "name": "Grid layout"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
-        "events": [],
+        "events": [
+          {
+            "triggerId": "Aki2vpqIdUeE5KX7NWEhV",
+            "triggerName": "get List",
+            "serviceType": "8",
+            "attributes": {
+              "loaderWidgetIds": [906070],
+              "messageWidgetIds": [906070],
+              "responseStateKey": "listRes",
+              "responseReturnValue": "abc",
+              "successMessageBindingKey": "abc",
+              "errorMessageBindingKey": "abc",
+              "url": "list",
+              "checksum": true,
+              "encryption": true,
+              "isDeviceDetails": true,
+              "loginTrigger": false,
+              "formData": false,
+              "logoutTrigger": false,
+              "headers": {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "channel_key": "001",
+                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                "locale": "en-ltr"
+              },
+              "requestBody": [],
+              "baseURL": "63a0664fab54b76ad44e782d",
+              "storeType": 2
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
         "order": 1,
         "version": "1.0.0",
         "isLatest": true,
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "jDLZTWpHLy4O_xnrqfsed",
+            "id": "S9j1HZ7FMEf8ZMwSEkRu_",
             "gridProps": [
               {
                 "id": "wncWFA7Aev0QfxM3sO16Q",
@@ -102,6 +135,61 @@
                 "component": { "content": "Label", "type": "20002" },
                 "events": [],
                 "path": "0-0-0"
+              },
+              {
+                "id": "v3bBXLQrslpksvGTjsy5G",
+                "status": "ACTIVE",
+                "name": "Append List",
+                "attributes": {
+                  "label": "Auth Matrix",
+                  "name": "Append List",
+                  "label-locale-key": "",
+                  "maxLength": 20,
+                  "type": "text",
+                  "variant": "standard",
+                  "value": "",
+                  "readOnly": false,
+                  "tooltip": "",
+                  "font-family": "Verdana",
+                  "mandatory": true,
+                  "tooltipState": "",
+                  "layoutProperties": {
+                    "textField": {
+                      "//": "Use this class to style text field component."
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style  text field element."
+                    },
+                    "mainContainer": "textField",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "validate": {
+                    "required": false,
+                    "errorMsg": "This field is required"
+                  },
+                  "placeholder": "",
+                  "dataSource": "listRes",
+                  "bindingKey": "listItems",
+                  "dataSourceStoreType": 2,
+                  "bindingKeyStoreType": 2
+                },
+                "icon": "FaList",
+                "group": "Form",
+                "type": "20055",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Append List", "type": "20055" },
+                "events": [],
+                "path": "0-0-1"
               }
             ],
             "layoutProperties": {
@@ -110,11 +198,20 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "name": "Screen",
@@ -142,6 +239,18 @@
           "componentId": "wncWFA7Aev0QfxM3sO16Q",
           "componentType": "20002",
           "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "v3bBXLQrslpksvGTjsy5G",
+          "componentType": "20055",
+          "order": 1
         }
       ],
       "label": "Header",
@@ -163,7 +272,14 @@
     },
     "createdAt": "2022-12-19T10:10:15.738Z",
     "createdBy": "talha",
-    "events": [],
+    "events": [
+      {
+        "triggerId": "Aki2vpqIdUeE5KX7NWEhV",
+        "triggerName": "get List",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "layout": null,
     "name": "Grid layout",
     "subType": "component",
@@ -200,6 +316,103 @@
     "status": "ACTIVE",
     "subType": "component",
     "type": "20002",
+    "updatedBy": "talha",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63a06608dc358d6a2face641",
+    "gitBranchName": "git_testing",
+    "id": "FzrkDuSmfJh0fUpOv51i4",
+    "projectId": "63a0379aab54b76ad44e75db",
+    "screenId": "g6tfS00Lh4ao0s6EDqrzw",
+    "Documentation": "<div>components 12344</div>",
+    "attributes": {
+      "label": "Authorization Matrix",
+      "name": "Append List",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": { "//": "Use this class to style  text field element." },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "dataSource": "listData",
+      "bindingKey": "array",
+      "dataSourceStoreType": 2,
+      "bindingKeyStoreType": 2,
+      "searchInState": false
+    },
+    "createdAt": "2022-12-19T13:24:24.560Z",
+    "createdBy": "talha",
+    "events": [],
+    "icon": "FaList",
+    "name": "Append List",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20055",
+    "updatedBy": "talha",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63a06723dc358d6a2face89c",
+    "gitBranchName": "git_testing",
+    "id": "v3bBXLQrslpksvGTjsy5G",
+    "projectId": "63a0379aab54b76ad44e75db",
+    "screenId": "g6tfS00Lh4ao0s6EDqrzw",
+    "Documentation": "<div>components 12344</div>",
+    "attributes": {
+      "label": "Auth Matrix",
+      "name": "Append List",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": { "//": "Use this class to style  text field element." },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "dataSource": "listRes",
+      "bindingKey": "listItems",
+      "dataSourceStoreType": 2,
+      "bindingKeyStoreType": 2
+    },
+    "createdAt": "2022-12-19T13:29:08.100Z",
+    "createdBy": "talha",
+    "events": [],
+    "icon": "FaList",
+    "name": "Append List",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20055",
     "updatedBy": "talha",
     "version": "1.0.0"
   }
