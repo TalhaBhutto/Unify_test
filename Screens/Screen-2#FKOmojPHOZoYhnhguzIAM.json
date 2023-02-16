@@ -1,11 +1,11 @@
 [
   {
-    "id": "PM5eJuOycra9jY9SfJToc",
-    "name": "Screen",
+    "id": "FKOmojPHOZoYhnhguzIAM",
+    "name": "Screen 2",
     "icon": "FaGripHorizontal",
     "path": "0",
     "attributes": {
-      "name": "Constraint Layout",
+      "name": "Screen 2",
       "layoutProperties": {
         "orientation": "vertical",
         "layout_width": "match_parent",
@@ -16,7 +16,7 @@
         "hideNavbar": true,
         "cornerRadius": [0, 0, 0, 0]
       },
-      "componentId": ["rVRO4sui9jhqMXFOvj3nJ"]
+      "componentId": ["wfzn_4JBtkvkC4lb7898N"]
     },
     "group": "Layout",
     "type": "CONSTRAINT",
@@ -30,18 +30,18 @@
     "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
     "gridProps": [
       {
-        "id": "rVRO4sui9jhqMXFOvj3nJ",
+        "id": "wfzn_4JBtkvkC4lb7898N",
         "status": "ACTIVE",
         "_id": "61dec5ad077814a0f374d9f3",
         "name": "Text view",
         "attributes": {
-          "name": "MAIN SCREEN",
+          "name": "Screen 2",
           "layoutProperties": {
             "textSize": 18,
             "layout_width": "match_parent",
             "layout_height": "60",
             "textColor": "#000000",
-            "text": "MAIN SCREEN",
+            "text": "Screen 2",
             "cornerRadius": [0, 0, 0, 0]
           }
         },
@@ -62,12 +62,12 @@
     "subType": "screen",
     "layout": [
       {
-        "id": "PM5eJuOycra9jY9SfJToc",
-        "name": "Screen",
+        "id": "FKOmojPHOZoYhnhguzIAM",
+        "name": "Screen 2",
         "icon": "FaGripHorizontal",
         "path": "0",
         "attributes": {
-          "name": "Constraint Layout",
+          "name": "Screen 2",
           "layoutProperties": {
             "orientation": "vertical",
             "layout_width": "match_parent",
@@ -92,18 +92,18 @@
         "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
         "gridProps": [
           {
-            "id": "rVRO4sui9jhqMXFOvj3nJ",
+            "id": "wfzn_4JBtkvkC4lb7898N",
             "status": "ACTIVE",
             "_id": "61dec5ad077814a0f374d9f3",
             "name": "Text view",
             "attributes": {
-              "name": "MAIN SCREEN",
+              "name": "Screen 2",
               "layoutProperties": {
                 "textSize": 18,
                 "layout_width": "match_parent",
                 "layout_height": "60",
                 "textColor": "#000000",
-                "text": "MAIN SCREEN",
+                "text": "Screen 2",
                 "cornerRadius": [0, 0, 0, 0]
               }
             },
@@ -126,22 +126,22 @@
     ],
     "projectId": "63e225cf75a43b3ad0ebcbe1",
     "gitBranchName": "master",
-    "_id": "PM5eJuOycra9jY9SfJToc",
+    "_id": "FKOmojPHOZoYhnhguzIAM",
     "createdBy": "talha",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "rVRO4sui9jhqMXFOvj3nJ",
+    "id": "wfzn_4JBtkvkC4lb7898N",
     "status": "ACTIVE",
     "name": "Text view",
     "attributes": {
-      "name": "MAIN SCREEN",
+      "name": "Screen 2",
       "layoutProperties": {
         "textSize": 18,
         "layout_width": "match_parent",
         "layout_height": "60",
         "textColor": "#000000",
-        "text": "MAIN SCREEN",
+        "text": "Screen 2",
         "cornerRadius": [0, 0, 0, 0]
       }
     },

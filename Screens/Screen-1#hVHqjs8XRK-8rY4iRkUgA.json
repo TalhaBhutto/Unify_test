@@ -1,11 +1,11 @@
 [
   {
     "id": "hVHqjs8XRK-8rY4iRkUgA",
-    "name": "Screen",
+    "name": "Screen 1",
     "icon": "FaGripHorizontal",
     "path": "0",
     "attributes": {
-      "name": "Constraint Layout",
+      "name": "Screen 1",
       "layoutProperties": {
         "orientation": "vertical",
         "layout_width": "match_parent",
@@ -63,11 +63,11 @@
     "layout": [
       {
         "id": "hVHqjs8XRK-8rY4iRkUgA",
-        "name": "Screen",
+        "name": "Screen 1",
         "icon": "FaGripHorizontal",
         "path": "0",
         "attributes": {
-          "name": "Constraint Layout",
+          "name": "Screen 1",
           "layoutProperties": {
             "orientation": "vertical",
             "layout_width": "match_parent",
