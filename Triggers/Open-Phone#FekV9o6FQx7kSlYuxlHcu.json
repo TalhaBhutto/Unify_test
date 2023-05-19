@@ -1,0 +1,25 @@
+{
+  "id": "jrE5DZ57A9X5rWQwEaste",
+  "name": "Open Phone",
+  "projectId": "63f8879cbf8c983b9cc0111a",
+  "services": [
+    {
+      "type": "NAVIGATION",
+      "command": {
+        "type": "8",
+        "attributes": {
+          "serviceName": "Open URL",
+          "url": "CALL",
+          "urlType": "action",
+          "contact": "03158910644"
+        }
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "_id": "FekV9o6FQx7kSlYuxlHcu",
+  "updatedAt": "3/9/2023",
+  "createdAt": "3/9/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

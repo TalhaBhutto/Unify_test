@@ -1,0 +1,23 @@
+{
+  "id": "KXfoT3GGPsLnV8rxxUUSk",
+  "name": "GO to s2",
+  "projectId": "63f8879cbf8c983b9cc0111a",
+  "services": [
+    {
+      "type": "NAVIGATION",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "serviceName": "Navigate",
+          "id": "8cixRe_b-_BrTNCj6Cyon"
+        }
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "_id": "dv14AyQpiE8BJaofnsmbE",
+  "updatedAt": "3/1/2023",
+  "createdAt": "3/1/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

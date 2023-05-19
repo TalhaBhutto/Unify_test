@@ -1,0 +1,220 @@
+[
+  {
+    "id": "enABxC2-MeAV7p8BV9R8q",
+    "name": "Screen",
+    "icon": "FaGripHorizontal",
+    "path": "0",
+    "attributes": {
+      "name": "Constraint Layout",
+      "layoutProperties": {
+        "orientation": "vertical",
+        "layout_width": "match_parent",
+        "layout_height": "wrap_content",
+        "statusBarColor": "#093959",
+        "background": "#F8F8F8",
+        "navBarColor": "#093959",
+        "hideNavbar": true,
+        "cornerRadius": [0, 0, 0, 0]
+      },
+      "componentId": ["IsJHBXO2kEgBs-2CuWS3t"]
+    },
+    "group": "Layout",
+    "type": "CONSTRAINT",
+    "status": "ACTIVE",
+    "updatedAt": "3/20/2023",
+    "createdAt": "3/20/2023",
+    "events": [],
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
+    "gridProps": [
+      {
+        "id": "IsJHBXO2kEgBs-2CuWS3t",
+        "status": "ACTIVE",
+        "_id": "61ded04c077814a0f374da02",
+        "name": "Tab Bar",
+        "attributes": {
+          "name": "Tab Bar",
+          "layoutProperties": { "src": " " },
+          "child": [
+            {
+              "title": "T1",
+              "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+              "triggerName": "GO to s2",
+              "id": "8cixRe_b-_BrTNCj6Cyon",
+              "screenName": "BackTriggerTest2",
+              "src": "AfWv1H7Kc3jalIWHzSv21",
+              "selectedSrc": "v1ETaxhv12qwO5qcJxhJP"
+            }
+          ]
+        },
+        "icon": "FaGripLines",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "2021-08-23T13:16:46+05:00",
+        "createdAt": "2021-08-23T13:16:46+05:00",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "gridProps": [""],
+        "component": { "content": "Tab Bar", "type": "TABBAR" },
+        "path": "0-0"
+      }
+    ],
+    "subType": "screen",
+    "layout": [
+      {
+        "id": "enABxC2-MeAV7p8BV9R8q",
+        "name": "Screen",
+        "icon": "FaGripHorizontal",
+        "path": "0",
+        "attributes": {
+          "name": "Constraint Layout",
+          "layoutProperties": {
+            "orientation": "vertical",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "statusBarColor": "#093959",
+            "background": "#F8F8F8",
+            "navBarColor": "#093959",
+            "hideNavbar": true,
+            "cornerRadius": [0, 0, 0, 0]
+          },
+          "componentId": []
+        },
+        "group": "Layout",
+        "type": "CONSTRAINT",
+        "status": "ACTIVE",
+        "updatedAt": "2021-09-23T15:17:45.489Z",
+        "createdAt": "2021-08-24T06:05:50.559Z",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
+        "gridProps": [
+          {
+            "id": "IsJHBXO2kEgBs-2CuWS3t",
+            "status": "ACTIVE",
+            "_id": "61ded04c077814a0f374da02",
+            "name": "Tab Bar",
+            "attributes": {
+              "name": "Tab Bar",
+              "layoutProperties": { "src": " " },
+              "child": [
+                {
+                  "title": "T1",
+                  "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+                  "triggerName": "GO to s2",
+                  "id": "8cixRe_b-_BrTNCj6Cyon",
+                  "screenName": "BackTriggerTest2",
+                  "src": "AfWv1H7Kc3jalIWHzSv21",
+                  "selectedSrc": "v1ETaxhv12qwO5qcJxhJP"
+                }
+              ]
+            },
+            "icon": "FaGripLines",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "2021-08-23T13:16:46+05:00",
+            "createdAt": "2021-08-23T13:16:46+05:00",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "gridProps": [""],
+            "component": { "content": "Tab Bar", "type": "TABBAR" },
+            "path": "0-0"
+          }
+        ],
+        "subType": "screen"
+      }
+    ],
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "_id": "enABxC2-MeAV7p8BV9R8q",
+    "createdBy": "talha",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "IsJHBXO2kEgBs-2CuWS3t",
+    "status": "ACTIVE",
+    "name": "Tab Bar",
+    "attributes": {
+      "name": "Tab Bar",
+      "layoutProperties": { "src": " " },
+      "child": [
+        {
+          "title": "T1",
+          "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+          "triggerName": "GO to s2",
+          "id": "8cixRe_b-_BrTNCj6Cyon",
+          "screenName": "BackTriggerTest2",
+          "src": "AfWv1H7Kc3jalIWHzSv21",
+          "selectedSrc": "v1ETaxhv12qwO5qcJxhJP"
+        }
+      ],
+      "componentId": [null]
+    },
+    "icon": "FaGripLines",
+    "group": "Form",
+    "type": "TABBAR",
+    "updatedAt": "2021-08-23T13:16:46+05:00",
+    "createdAt": "2021-08-23T13:16:46+05:00",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "gridProps": [""],
+    "component": { "content": "Tab Bar", "type": "TABBAR" },
+    "path": "0-0",
+    "layout": [
+      {
+        "id": "IsJHBXO2kEgBs-2CuWS3t",
+        "status": "ACTIVE",
+        "_id": "61ded04c077814a0f374da02",
+        "name": "Tab Bar",
+        "attributes": {
+          "name": "Tab Bar",
+          "layoutProperties": { "src": " " },
+          "child": [
+            {
+              "title": "T1",
+              "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+              "triggerName": "GO to s2",
+              "id": "8cixRe_b-_BrTNCj6Cyon",
+              "screenName": "BackTriggerTest2",
+              "src": "AfWv1H7Kc3jalIWHzSv21",
+              "selectedSrc": "v1ETaxhv12qwO5qcJxhJP"
+            }
+          ]
+        },
+        "icon": "FaGripLines",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "2021-08-23T13:16:46+05:00",
+        "createdAt": "2021-08-23T13:16:46+05:00",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "gridProps": [""],
+        "component": { "content": "Tab Bar", "type": "TABBAR" },
+        "path": "0-0"
+      }
+    ],
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

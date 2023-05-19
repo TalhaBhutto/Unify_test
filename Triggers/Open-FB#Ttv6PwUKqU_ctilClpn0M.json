@@ -1,0 +1,24 @@
+{
+  "id": "SwERDnc1PEhHfkVFZEd6T",
+  "name": "Open FB",
+  "projectId": "63f8879cbf8c983b9cc0111a",
+  "services": [
+    {
+      "type": "NAVIGATION",
+      "command": {
+        "type": "8",
+        "attributes": {
+          "serviceName": "Open URL",
+          "url": "https://www.facebook.com/",
+          "urlType": "url"
+        }
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "_id": "Ttv6PwUKqU_ctilClpn0M",
+  "updatedAt": "3/9/2023",
+  "createdAt": "3/9/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

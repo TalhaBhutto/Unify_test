@@ -1,0 +1,34 @@
+{
+  "id": "a7FIV6STgcR7u6U8iF4f-",
+  "projectId": "63f8879cbf8c983b9cc0111a",
+  "name": "Open JUMIO SCANNER",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "UI",
+      "command": {
+        "type": "12",
+        "attributes": {
+          "serviceName": "Open jumio scanner",
+          "country": "PAK",
+          "apiToken": "wsas",
+          "apiSecret": "asasas",
+          "bindingKey": "bcbcbc",
+          "document": "NIC",
+          "selectedTriggerId": "KXfoT3GGPsLnV8rxxUUSk",
+          "background": "#8C3131",
+          "foregroundColor": "#7A7575",
+          "failureTriggerId": "Bt9t0w5XUqa6DKF-EgsyJ",
+          "failureMessage": "FAILURE IN OPENING JUMIO"
+        },
+        "returns": []
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "_id": "Nb5DHwMdJ2oqXUKf2cZvE",
+  "updatedAt": "3/2/2023",
+  "createdAt": "3/2/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

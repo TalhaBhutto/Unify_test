@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "T88QGJgPCzeyHSbpeyDCW",
+    "name": "Screen",
+    "icon": "FaGripHorizontal",
+    "path": "0",
+    "attributes": {
+      "name": "Screen",
+      "layoutProperties": {
+        "orientation": "vertical",
+        "layout_width": "match_parent",
+        "layout_height": "wrap_content",
+        "statusBarColor": "#093959",
+        "background": "#F8F8F8",
+        "navBarColor": "#093959",
+        "hideNavbar": true,
+        "cornerRadius": [0, 0, 0, 0]
+      },
+      "componentId": [
+        "kZg8lL8K9hfqyYrE9faKL",
+        "iSDCHVeUPYkh-qHifVobD",
+        "yUQTJa8j5bmgGFz6eAW2P",
+        "SJT6ZLGYws7zPW-G6QFAq",
+        "m2y-0kDzKKtPi5D6A-5k6",
+        "Mb3XsQlhD7-xSeobw6O9t",
+        "x2GzNbhn_fm43miW8QYPQ"
+      ]
+    },
+    "group": "Layout",
+    "type": "CONSTRAINT",
+    "status": "ACTIVE",
+    "updatedAt": "3/13/2023",
+    "createdAt": "3/13/2023",
+    "events": [],
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
+    "gridProps": [
+      {
+        "id": "kZg8lL8K9hfqyYrE9faKL",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "GO to Scren1",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [
+          {
+            "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+            "triggerName": "GO to s2",
+            "serviceType": "NAVIGATION",
+            "attributes": {
+              "serviceName": "Navigate",
+              "id": "8cixRe_b-_BrTNCj6Cyon"
+            },
+            "type": "ONCLICK",
+            "name": "On click"
+          }
+        ],
+        "path": "0-0",
+        "edit": true
+      },
+      {
+        "id": "iSDCHVeUPYkh-qHifVobD",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "Open Jumio",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true,
+            "topToBottomOf": "kZg8lL8K9hfqyYrE9faKL"
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [
+          {
+            "triggerId": "a7FIV6STgcR7u6U8iF4f-",
+            "triggerName": "Open JUMIO SCANNER",
+            "serviceType": "UI",
+            "attributes": {
+              "serviceName": "Open jumio scanner",
+              "country": "PAK",
+              "apiToken": "wsas",
+              "apiSecret": "asasas",
+              "bindingKey": "bcbcbc",
+              "document": "NIC",
+              "selectedTriggerId": "KXfoT3GGPsLnV8rxxUUSk",
+              "background": "#8C3131",
+              "foregroundColor": "#7A7575",
+              "failureTriggerId": "Bt9t0w5XUqa6DKF-EgsyJ",
+              "failureMessage": "FAILURE IN OPENING JUMIO"
+            },
+            "type": "ONCLICK",
+            "name": "On click"
+          }
+        ],
+        "path": "0-1",
+        "edit": true
+      },
+      {
+        "id": "yUQTJa8j5bmgGFz6eAW2P",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "Open FB",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true,
+            "topToBottomOf": "iSDCHVeUPYkh-qHifVobD"
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [
+          {
+            "triggerId": "SwERDnc1PEhHfkVFZEd6T",
+            "triggerName": "Open FB",
+            "serviceType": "NAVIGATION",
+            "attributes": {
+              "serviceName": "Open URL",
+              "url": "https://www.facebook.com/",
+              "urlType": "url"
+            },
+            "type": "ONCLICK",
+            "name": "On click"
+          }
+        ],
+        "path": "0-2",
+        "edit": true
+      },
+      {
+        "id": "SJT6ZLGYws7zPW-G6QFAq",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "Open phone",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true,
+            "topToBottomOf": "yUQTJa8j5bmgGFz6eAW2P"
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [
+          {
+            "triggerId": "jrE5DZ57A9X5rWQwEaste",
+            "triggerName": "Open Phone",
+            "serviceType": "NAVIGATION",
+            "attributes": {
+              "serviceName": "Open URL",
+              "url": "CALL",
+              "urlType": "action",
+              "contact": "03158910644"
+            },
+            "type": "ONCLICK",
+            "name": "On click"
+          }
+        ],
+        "path": "0-3"
+      },
+      {
+        "id": "m2y-0kDzKKtPi5D6A-5k6",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "Open SMS",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true,
+            "topToBottomOf": "SJT6ZLGYws7zPW-G6QFAq"
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [],
+        "path": "0-4"
+      },
+      {
+        "id": "Mb3XsQlhD7-xSeobw6O9t",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "Open WA",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true,
+            "topToBottomOf": "m2y-0kDzKKtPi5D6A-5k6"
+          }
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [
+          {
+            "triggerId": "BrmmUZRSOkIRx3N382XL6",
+            "triggerName": "Open WA",
+            "serviceType": "NAVIGATION",
+            "attributes": {
+              "serviceName": "Open URL",
+              "url": "WHATSAPP",
+              "urlType": "action",
+              "contact": "+923158910644",
+              "text": "HELLO TALHA"
+            },
+            "type": "ONCLICK",
+            "name": "On click"
+          }
+        ],
+        "path": "0-5"
+      },
+      {
+        "id": "x2GzNbhn_fm43miW8QYPQ",
+        "status": "ACTIVE",
+        "_id": "61dec5ad077814a0f374d9f3",
+        "name": "Text view",
+        "attributes": {
+          "name": "Text view",
+          "layoutProperties": {
+            "textSize": 18,
+            "layout_width": "match_parent",
+            "layout_height": "60",
+            "textColor": "#000000",
+            "text": "MARGIN ERROR",
+            "cornerRadius": [0, 0, 0, 0],
+            "layout_marginBottom": 0,
+            "topToBottomOf": "Mb3XsQlhD7-xSeobw6O9t"
+          }
+        },
+        "icon": "FaTextWidth",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Text view", "type": "TEXTVIEW" },
+        "events": [],
+        "path": "0-6",
+        "edit": true
+      }
+    ],
+    "subType": "screen",
+    "layout": [
+      {
+        "id": "T88QGJgPCzeyHSbpeyDCW",
+        "name": "Screen",
+        "icon": "FaGripHorizontal",
+        "path": "0",
+        "attributes": {
+          "name": "Screen",
+          "layoutProperties": {
+            "orientation": "vertical",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "statusBarColor": "#093959",
+            "background": "#F8F8F8",
+            "navBarColor": "#093959",
+            "hideNavbar": true,
+            "cornerRadius": [0, 0, 0, 0]
+          },
+          "componentId": []
+        },
+        "group": "Layout",
+        "type": "CONSTRAINT",
+        "status": "ACTIVE",
+        "updatedAt": "2021-09-23T15:17:45.489Z",
+        "createdAt": "2021-08-24T06:05:50.559Z",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
+        "gridProps": [
+          {
+            "id": "kZg8lL8K9hfqyYrE9faKL",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "GO to Scren1",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [
+              {
+                "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+                "triggerName": "GO to s2",
+                "serviceType": "NAVIGATION",
+                "attributes": {
+                  "serviceName": "Navigate",
+                  "id": "8cixRe_b-_BrTNCj6Cyon"
+                },
+                "type": "ONCLICK",
+                "name": "On click"
+              }
+            ],
+            "path": "0-0",
+            "edit": true
+          },
+          {
+            "id": "iSDCHVeUPYkh-qHifVobD",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "Open Jumio",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true,
+                "topToBottomOf": "kZg8lL8K9hfqyYrE9faKL"
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [
+              {
+                "triggerId": "a7FIV6STgcR7u6U8iF4f-",
+                "triggerName": "Open JUMIO SCANNER",
+                "serviceType": "UI",
+                "attributes": {
+                  "serviceName": "Open jumio scanner",
+                  "country": "PAK",
+                  "apiToken": "wsas",
+                  "apiSecret": "asasas",
+                  "bindingKey": "bcbcbc",
+                  "document": "NIC",
+                  "selectedTriggerId": "KXfoT3GGPsLnV8rxxUUSk",
+                  "background": "#8C3131",
+                  "foregroundColor": "#7A7575",
+                  "failureTriggerId": "Bt9t0w5XUqa6DKF-EgsyJ",
+                  "failureMessage": "FAILURE IN OPENING JUMIO"
+                },
+                "type": "ONCLICK",
+                "name": "On click"
+              }
+            ],
+            "path": "0-1",
+            "edit": true
+          },
+          {
+            "id": "yUQTJa8j5bmgGFz6eAW2P",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "Open FB",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true,
+                "topToBottomOf": "iSDCHVeUPYkh-qHifVobD"
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [
+              {
+                "triggerId": "SwERDnc1PEhHfkVFZEd6T",
+                "triggerName": "Open FB",
+                "serviceType": "NAVIGATION",
+                "attributes": {
+                  "serviceName": "Open URL",
+                  "url": "https://www.facebook.com/",
+                  "urlType": "url"
+                },
+                "type": "ONCLICK",
+                "name": "On click"
+              }
+            ],
+            "path": "0-2",
+            "edit": true
+          },
+          {
+            "id": "SJT6ZLGYws7zPW-G6QFAq",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "Open phone",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true,
+                "topToBottomOf": "yUQTJa8j5bmgGFz6eAW2P"
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [
+              {
+                "triggerId": "jrE5DZ57A9X5rWQwEaste",
+                "triggerName": "Open Phone",
+                "serviceType": "NAVIGATION",
+                "attributes": {
+                  "serviceName": "Open URL",
+                  "url": "CALL",
+                  "urlType": "action",
+                  "contact": "03158910644"
+                },
+                "type": "ONCLICK",
+                "name": "On click"
+              }
+            ],
+            "path": "0-3"
+          },
+          {
+            "id": "m2y-0kDzKKtPi5D6A-5k6",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "Open SMS",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true,
+                "topToBottomOf": "SJT6ZLGYws7zPW-G6QFAq"
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [],
+            "path": "0-4"
+          },
+          {
+            "id": "Mb3XsQlhD7-xSeobw6O9t",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "Open WA",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true,
+                "topToBottomOf": "m2y-0kDzKKtPi5D6A-5k6"
+              }
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [
+              {
+                "triggerId": "BrmmUZRSOkIRx3N382XL6",
+                "triggerName": "Open WA",
+                "serviceType": "NAVIGATION",
+                "attributes": {
+                  "serviceName": "Open URL",
+                  "url": "WHATSAPP",
+                  "urlType": "action",
+                  "contact": "+923158910644",
+                  "text": "HELLO TALHA"
+                },
+                "type": "ONCLICK",
+                "name": "On click"
+              }
+            ],
+            "path": "0-5"
+          },
+          {
+            "id": "x2GzNbhn_fm43miW8QYPQ",
+            "status": "ACTIVE",
+            "_id": "61dec5ad077814a0f374d9f3",
+            "name": "Text view",
+            "attributes": {
+              "name": "Text view",
+              "layoutProperties": {
+                "textSize": 18,
+                "layout_width": "match_parent",
+                "layout_height": "60",
+                "textColor": "#000000",
+                "text": "MARGIN ERROR",
+                "cornerRadius": [0, 0, 0, 0],
+                "layout_marginBottom": 0,
+                "topToBottomOf": "Mb3XsQlhD7-xSeobw6O9t"
+              }
+            },
+            "icon": "FaTextWidth",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Text view", "type": "TEXTVIEW" },
+            "events": [],
+            "path": "0-6",
+            "edit": true
+          }
+        ],
+        "subType": "screen"
+      }
+    ],
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "_id": "T88QGJgPCzeyHSbpeyDCW",
+    "createdBy": "talha",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "kZg8lL8K9hfqyYrE9faKL",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "GO to Scren1",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [
+      {
+        "triggerId": "KXfoT3GGPsLnV8rxxUUSk",
+        "triggerName": "GO to s2",
+        "name": "On click",
+        "type": "ONCLICK"
+      }
+    ],
+    "path": "0-0",
+    "edit": true,
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "iSDCHVeUPYkh-qHifVobD",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "Open Jumio",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true,
+        "topToBottomOf": "kZg8lL8K9hfqyYrE9faKL"
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [
+      {
+        "triggerId": "a7FIV6STgcR7u6U8iF4f-",
+        "triggerName": "Open JUMIO SCANNER",
+        "name": "On click",
+        "type": "ONCLICK"
+      }
+    ],
+    "path": "0-1",
+    "edit": true,
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "yUQTJa8j5bmgGFz6eAW2P",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "Open FB",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true,
+        "topToBottomOf": "iSDCHVeUPYkh-qHifVobD"
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [
+      {
+        "triggerId": "SwERDnc1PEhHfkVFZEd6T",
+        "triggerName": "Open FB",
+        "name": "On click",
+        "type": "ONCLICK"
+      }
+    ],
+    "path": "0-2",
+    "edit": true,
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "SJT6ZLGYws7zPW-G6QFAq",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "Open phone",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true,
+        "topToBottomOf": "yUQTJa8j5bmgGFz6eAW2P"
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [
+      {
+        "triggerId": "jrE5DZ57A9X5rWQwEaste",
+        "triggerName": "Open Phone",
+        "name": "On click",
+        "type": "ONCLICK"
+      }
+    ],
+    "path": "0-3",
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "m2y-0kDzKKtPi5D6A-5k6",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "Open SMS",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true,
+        "topToBottomOf": "SJT6ZLGYws7zPW-G6QFAq"
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [],
+    "path": "0-4",
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Mb3XsQlhD7-xSeobw6O9t",
+    "status": "ACTIVE",
+    "name": "Button",
+    "attributes": {
+      "name": "Button",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "Open WA",
+        "textSize": 10,
+        "textColor": "#000000",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "cornerRadius": [0, 0, 0, 0],
+        "background": "#9BB93B",
+        "clickable": true,
+        "topToBottomOf": "m2y-0kDzKKtPi5D6A-5k6"
+      }
+    },
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "BUTTON",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Button", "type": "BUTTON" },
+    "events": [
+      {
+        "triggerId": "BrmmUZRSOkIRx3N382XL6",
+        "triggerName": "Open WA",
+        "name": "On click",
+        "type": "ONCLICK"
+      }
+    ],
+    "path": "0-5",
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "x2GzNbhn_fm43miW8QYPQ",
+    "status": "ACTIVE",
+    "name": "Text view",
+    "attributes": {
+      "name": "Text view",
+      "layoutProperties": {
+        "textSize": 18,
+        "layout_width": "match_parent",
+        "layout_height": "60",
+        "textColor": "#000000",
+        "text": "MARGIN ERROR",
+        "cornerRadius": [0, 0, 0, 0],
+        "layout_marginBottom": 0,
+        "topToBottomOf": "Mb3XsQlhD7-xSeobw6O9t"
+      }
+    },
+    "icon": "FaTextWidth",
+    "group": "Form",
+    "type": "TEXTVIEW",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "mobile",
+    "component": { "content": "Text view", "type": "TEXTVIEW" },
+    "events": [],
+    "path": "0-6",
+    "edit": true,
+    "subType": "component",
+    "projectId": "63f8879cbf8c983b9cc0111a",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

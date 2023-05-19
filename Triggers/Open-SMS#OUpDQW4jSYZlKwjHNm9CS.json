@@ -1,0 +1,27 @@
+{
+  "id": "g6bXJWFfVQed5yWJg2j-v",
+  "name": "Open SMS",
+  "projectId": "63f8879cbf8c983b9cc0111a",
+  "services": [
+    {
+      "type": "NAVIGATION",
+      "command": {
+        "type": "8",
+        "attributes": {
+          "serviceName": "Open URL",
+          "url": "SMS",
+          "urlType": "action",
+          "contact": "03158910642",
+          "text": "HELLO TALHA"
+        }
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "_id": "OUpDQW4jSYZlKwjHNm9CS",
+  "updatedAt": "3/9/2023",
+  "createdAt": "3/9/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha",
+  "old_name": "Open SMS"
+}
